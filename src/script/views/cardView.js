@@ -2,7 +2,7 @@ import View from "./view";
 
 class CardView extends View {
   _parentElement = document.querySelector(".cards");
-  // _errorMessage = "We couldn’t find that city. Please try again.";
+  _errorMessage = "We couldn’t find that city. Please try again.";
 
   _formatDate = function () {
     const now = new Date();
